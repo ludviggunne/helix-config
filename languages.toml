@@ -1,0 +1,6 @@
+[[language]]
+name = "c"
+indent = { tab-width = 2, unit = "    " }
+formatter = { command = "indent", args = [ "--linux-style", "--no-tabs", "--indent-level4", "--line-length80", "--preserve-mtime", "--space-after-cast" ]}
+file-types = ["c", "h"]
+auto-format = true

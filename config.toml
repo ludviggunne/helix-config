@@ -1,0 +1,19 @@
+theme = "gruber-darker"
+
+[editor]
+line-number = "relative"
+
+[keys.normal]
+X = ["extend_line_up", "extend_to_line_bounds"]
+A-x = "extend_to_line_bounds"
+C-n = ["search_selection", "select_mode"]
+C-j = ["goto_next_paragraph"]
+C-k = ["goto_prev_paragraph"]
+C-h = ["flip_selections"]
+
+[keys.select]
+X = ["extend_line_up", "extend_to_line_bounds"]
+A-x = "extend_to_line_bounds"
+C-j = ["goto_next_paragraph"]
+C-k = ["goto_prev_paragraph"]
+C-h = ["flip_selections"]
