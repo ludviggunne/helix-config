@@ -1,4 +1,4 @@
-theme = "gruber-darker"
+theme = "hex_lavender"
 
 [editor]
 line-number = "relative"
@@ -17,3 +17,6 @@ A-x = "extend_to_line_bounds"
 C-j = ["goto_next_paragraph"]
 C-k = ["goto_prev_paragraph"]
 C-h = ["flip_selections"]
+
+[editor.statusline]
+center = ["version-control"]
